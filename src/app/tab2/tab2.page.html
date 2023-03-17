@@ -1,17 +1,24 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      <h2>Feed de filmes</h2>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  
+  <ion-card>
+    <img alt="Demolidor" src="\assets\demolidor.png" />
+    <ion-card-header>
+      <ion-card-title>Demolidor</ion-card-title>
+      <ion-card-subtitle>O Homem sem Medo</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      A história de origem do Demolidor acontece em Hell's Kitchen, um bairro de Nova Iorque, onde a criança Matthew "Matt" Murdock salva um homem de idade de um caminhão em andamento que continha uma carga radioativa
+    </ion-card-content>
+  </ion-card>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  
 </ion-content>
